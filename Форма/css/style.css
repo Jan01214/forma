@@ -1,0 +1,90 @@
+body{
+	background: aqua;
+	color: blue;
+}
+
+a{
+	text-decoration: underline;
+	color: blue;
+}
+
+.title
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.link{
+	text-align: right;
+	display: block;
+	margin: 20px 0;	
+	font-weight: bold;
+}
+.form__contoiner{
+	display: grid;
+	grid-gap: 20px;
+}
+.sex{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.element{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 100% 70%; 
+}
+.date{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 100%);
+}
+.form-row {
+	display: grid;
+	grid-gap: 20px;	
+	grid-template-columns: 20% 10%;
+	justify-content: start;
+}
+.form-title,
+.form-title__reg{
+	font-weight: bold;	
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+.form-title__reg{
+	font-size: 15px;
+}
+label,
+.text {
+	font-weight: bold;	
+	font-size: 15px;
+}
+.form-row__form:after{
+	content: "*";
+	position: absolute;
+}
+.form-row__form {
+	position: relative;	
+}
+
+img{
+	display: block;
+	max-width: 200px;
+}
+
+button{
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+	padding: 5px 0;
+	font-weight: bold;
+	border-radius: 5px;		
+}
+
+.text{
+	text-align: center;
+	margin: 40px 0 20px;
+}
+.form-row-1{
+	text-align: center;
+}
